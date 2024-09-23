@@ -15,6 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Blog
-https://kang-eunchan.tistory.com/  
 https://kangeunchan.github.io/pages-blog-kangeunchan/
