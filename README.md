@@ -25,7 +25,7 @@ https://kangeunchan.github.io/pages-blog-kangeunchan/
 [![Kubernetes Badge](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 [![Helm Badge](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)](https://helm.sh/)
 
-[![Profile Hits Badge](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fin-jun&count_bg=%23000000&title_bg=%23000000&icon=&icon_color=%23E7E7E7&title=in-jun&edge_flat=true)](https://github.com/kangeunchan)
+[![Profile Hits Badge](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkangeunchan%20&count_bg=%23000000&title_bg=%23000000&icon=&icon_color=%23E7E7E7&title=kangeunchan&edge_flat=true)](https://github.com/kangeunchan)
 [![Go Badge](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://golang.org/)
 [![Spring Boot Badge](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot/)
 [![Java Badge](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)](https://www.oracle.com/java/)
