@@ -22,8 +22,8 @@ jobs:
 
       - name: Commit & Push Changes
         run: |
-          git config user.name "kangeunchan"
-          git config user.email "kangeunchan080310@gmail.com"
+          git config user.name kangeunchan
+          git config user.email kangeunchan080310@gmail.com
           git remote set-url origin https://github.com/kangeunchan/kangeunchan.git
           git add -A
           git commit -m "generate: 3D contributions for GitHub profile"
