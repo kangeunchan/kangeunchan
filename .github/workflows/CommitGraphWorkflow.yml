@@ -1,0 +1,30 @@
+name: Generate GitHub Profile 3D Contributions
+
+on:
+  schedule:
+    # 매일 03:00 JST (18:00 UTC) 실행
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate 3D Contributions
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit & Push Changes
+        run: |
+          git config user.name "kangeunchan"
+          git config user.email "kangeunchan080310@gmail.com"
+          git remote set-url origin https://github.com/kangeunchan/kangeunchan.git
+          git add -A
+          git commit -m "git commit -m "generate: 3D contributions for GitHub profile"
+          git push https://$GITHUB_TOKEN@github.com/kangeunchan/kangeunchan.git
