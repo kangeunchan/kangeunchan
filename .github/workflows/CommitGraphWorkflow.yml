@@ -26,5 +26,5 @@ jobs:
           git config user.email "kangeunchan080310@gmail.com"
           git remote set-url origin https://github.com/kangeunchan/kangeunchan.git
           git add -A
-          git commit -m "git commit -m "generate: 3D contributions for GitHub profile"
+          git commit -m "generate: 3D contributions for GitHub profile"
           git push https://$GITHUB_TOKEN@github.com/kangeunchan/kangeunchan.git
